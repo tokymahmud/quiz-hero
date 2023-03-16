@@ -44,16 +44,33 @@
 
     <!-- Q/A session started -->
 <!-- first question -->
-<p class="font-semibold text-center hover:text-rose-800 " >Difference between map, filter, for each, find.</p>
+<p class="underline font-semibold text-center hover:text-rose-800 " >Difference between map, filter, for each, find.</p>
+
+<p> Map(): Perform the same operation on all elements in an iterable.For an example performing a log transformation on each element.It creates a new array from calling a function for every array element.It calls a function once for each element in an array. <br>
+     Filter(): Filters a subset of elements that meets a certain condition. Like it filter out sentences that contain a specific string. <br>
+     forEach(): It is great you need to execute a function for each individual element in an array. With .It simply pass a function that is executed on each element in the array. <br>
+     find(): It is used to select a single element from an array.It is an iterative method. It calls a provided callbackFn function once for each element in an array in ascending-index order.
+
+    </p>
 
 <!-- second  question -->
-<p class="font-semibold text-center  hover:text-rose-800 " >Difference between local storage,section storage and cookies.</p>
+<p class="	underline font-semibold text-center  hover:text-rose-800 " >Difference between local storage,session storage and cookies.</p>
+<p>Local storage is useful for storing data that the user will need to access later, such as offline data. Session storage is a great way to improve the performance of your web applications. Cookies are a good choice for storing data that should not be persisted for a long time, such as session IDs. <br>
+Basically, sessions are saved on the server side while cookies are saved on the client side.In localStorage , the data is persisted until the user manually clears the browser cache or until your web app clears the data. localStorage stores data with no expiration date. But sessionStorage stores data for one session.
+</p>
+
 <!-- third question -->
-<p class="font-semibold text-center  hover:text-rose-800 " >What is event loop? How does it actually work?</p>
+<p class="underline font-semibold text-center  hover:text-rose-800 " >What is event loop? How does it actually work?</p>
+<p> In simple word, the Event Loop has one simple job which is to monitor the Call Stack and the Callback Queue.JavaScript has a runtime model based on an event loop, which is responsible for executing the code, collecting and processing events, and executing queued sub-tasks. <br>
+It checks the stack. If the stack is empty it takes the first thing on the queue. later, it pushes it on to the stack which effectively run it.
+
+
+</p>
+
 <!-- first function question -->
-<p class="font-semibold text-center  hover:text-rose-800" >Quiz timer function work</p>
+<p class="underline font-semibold text-center  hover:text-rose-800" >Quiz timer function work</p>
 <!-- second function question -->
-<p class="font-semibold text-center  hover:text-rose-800" >chooseQuiz function work</p>
+<p class="underline font-semibold text-center  hover:text-rose-800" >chooseQuiz function work</p>
     
 </body>
 </html>
